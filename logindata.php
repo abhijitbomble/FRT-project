@@ -11,7 +11,7 @@ if(is_array($row) && !empty($row))
   $_SESSION['username'] = $row['Username'];
   $_SESSION['age'] = $row['Age'];
   $_SESSION['id'] = $row['Id'];
-  $con=new mysqli('myazdemosvr.mysql.database.azure.com','myadmin@myazdemosvr','Server@1','flat');
+  $con=new mysqli("starinsurance.mysql.database.azure.comt","admin123","Server@1","newproject");
   $q="insert into users(email,password)values('$email','$password')";
   $r=mysqli_query($con,$q);
   if($r)
