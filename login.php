@@ -1,6 +1,3 @@
-<?php 
-   require("logindata.php");
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
