@@ -16,17 +16,13 @@ if(is_array($row) && !empty($row))
   $r=mysqli_query($con,$q);
   if($r)
   {
-    echo "<script>alert('Your Booking is Successfully, Do Payment now')</script>";
+      echo "<div class='message'>
+      <p>Wrong Username or Password</p>
+      </div> <br>";
+      echo "<a href='login.php'><button class='btn'>Go Back</button>";
   }
 }
-else
-{
-  echo "<div class='message'>
-  <p>Wrong Username or Password</p>
-  </div> <br>";
-  echo "<a href='login.php'><button class='btn'>Go Back</button>";
-}
-  if(isset($_SESSION['valid']))
+ if(isset($_SESSION['valid']))
   {
     header("Location: home.php");
   }
