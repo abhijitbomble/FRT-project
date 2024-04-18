@@ -23,8 +23,7 @@
                 </div>
 
                 <div class="field">
-                    <button onclick="window.location.href = 'home.php';" class="btn" required>login</button>
-                    <input type="button" onclick="window.location.href = "home.php" class="btn" name="submit" value="Login" required>
+                    <button onclick="window.location.href = 'homecar.php';" class="btn" required>login</button>
                 </div>
                 <div class="links">
                     Don't have account? <a href="register.php">Sign Up Now</a>
