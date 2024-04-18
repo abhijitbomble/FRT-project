@@ -14,9 +14,6 @@
             <p><a href="home.php">Star Insurance</a> </p>
         </div>
 
-        <div class="right-links">
-           <a href='edit.php?Id=$res_id'>Change Profile</a>"
-
             <a href="logout.php"> <button class="btn">Log Out</button> </a>
 
         </div>
