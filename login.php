@@ -24,7 +24,7 @@
 
                 <div class="field">
                     
-                    <input type="submit" class="btn" name="submit" value="Login" required>
+                    <input type="submit" class="btn" href="home.php" name="submit" value="Login" required>
                 </div>
                 <div class="links">
                     Don't have account? <a href="register.php">Sign Up Now</a>
