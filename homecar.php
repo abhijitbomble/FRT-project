@@ -88,8 +88,8 @@
 
             <label for="premium_amount">Premium Amount (per year):</label>
             <input type="number" id="premium_amount" name="premium_amount" min="0" step="0.01" required>
-            
-            <button type="submit" name="submit" href='home.php'>Buy Insurance</button>
+            <button onclick="window.location.href = 'home.php';">Buy Insurance</button>
+           
         </form>
     </div>
 </body>
