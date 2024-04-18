@@ -62,7 +62,7 @@
 <body>
     <div class="container">
         <h1>Car Insurance Policy Form</h1>
-        <form action="submit_policy.php" method="post">
+        
             <label for="car_make_model">Car Make & Model:</label>
             <select name="car_make_model" id="car_make_model" required>
 	            <option value="">--- Choose a CAR MODEL ---</option>
