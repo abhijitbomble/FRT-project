@@ -141,7 +141,8 @@
             <input type="file" id="identification_documents" name="identification_documents" accept="image/*,application/pdf" multiple required>
             <label for="proof_of_insurability">Proof of Insurability:</label>
             <input type="file" id="proof_of_insurability" name="proof_of_insurability" accept="image/*,application/pdf" required>
-            <button type="submit">Buy Life Insurance</button>
+            <button onclick="window.location.href = 'home.php';">Buy Life Insurance</button>
+            
         </form>
     </div>
 </body>
