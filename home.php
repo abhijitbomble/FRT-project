@@ -27,7 +27,7 @@
                 <p>Hello <b></b>, Welcome</p>
             </div>
             <div class="box">
-                <p>Your email is <b></b>.</p>
+                <p>You chose what insurance you want <b></b>.</p>
             </div>
           </div>
           <div class="bottom">
