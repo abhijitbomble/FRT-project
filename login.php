@@ -23,7 +23,7 @@
                 </div>
 
                 <div class="field">
-                    
+                    <button onclick="window.location.href = 'home.php';" class="btn" required>login</button>
                     <input type="button" onclick="window.location.href = "home.php" class="btn" name="submit" value="Login" required>
                 </div>
                 <div class="links">
