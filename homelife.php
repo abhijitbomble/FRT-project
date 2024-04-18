@@ -63,7 +63,7 @@
 <body>
     <div class="container">
         <h1>Life Insurance Policy Form</h1>
-        <form action="submit_life_insurance.php" method="post">
+        
             <!-- Personal Information -->
             <label for="full_name">Full Name:</label>
             <input type="text" id="full_name" name="full_name" required>
