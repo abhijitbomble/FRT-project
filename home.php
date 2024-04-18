@@ -1,11 +1,4 @@
-<?php 
-   session_start();
 
-   include("config.php");
-   if(!isset($_SESSION['valid'])){
-    header("Location: login.php");
-   }
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,10 +27,10 @@
        <div class="main-box top">
           <div class="top">
             <div class="box">
-                <p>Hello <b><?php echo $res_Uname ?></b>, Welcome</p>
+                <p>Hello <b></b>, Welcome</p>
             </div>
             <div class="box">
-                <p>Your email is <b><?php echo $res_Email ?></b>.</p>
+                <p>Your email is <b></b>.</p>
             </div>
           </div>
           <div class="bottom">
