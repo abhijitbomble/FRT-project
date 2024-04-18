@@ -147,7 +147,7 @@ renovations_upgrades">Renovations or Upgrades:</label>
             <!-- Additional Documentation -->
             <label for="additional_documents">Additional Documentation:</label>
             <input type="file" id="additional_documents" name="additional_documents" accept="image/*,application/pdf" multiple required>
-            <button type="submit">Buy Property Insurance</button>
+            <button onclick="window.location.href = 'home.php';">Buy Property Insurance</button>
         </form>
     </div>
 </body>
