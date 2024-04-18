@@ -64,7 +64,6 @@
 <body>
     <div class="container">
         <h1>Property Insurance Policy Form</h1>
-        <form action="submit_property_insurance.php" method="post">
             <!-- Personal Information -->
             <label for="property_owner_full_name">Property Owner's Full Name:</label>
             <input type="text" id="property_owner_full_name" name="property_owner_full_name" required>
