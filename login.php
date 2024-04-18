@@ -31,7 +31,6 @@
                 </div>
             </form>
         </div>
-        <?php } ?>
       </div>
 </body>
 </html>
