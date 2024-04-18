@@ -14,7 +14,7 @@
             <p><a href="home.php">Star Insurance</a> </p>
         </div>
 
-            <a href="logout.php"> <button class="btn">Log Out</button> </a>
+            <a href="index.php"> <button class="btn">Log Out</button> </a>
 
         </div>
     </div>
