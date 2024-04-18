@@ -34,15 +34,13 @@
                 </div>
 
                 <div class="field">
-                    
-                    <input type="submit" class="btn" name="submit" value="Register" required>
+                    <button onclick="window.location.href = 'login.php';" class="btn">HOME</button>
                 </div>
                 <div class="links">
                     Already a member? <a href="login.php">Sign In</a>
                 </div>
             </form>
         </div>
-        <?php } ?>
       </div>
 </body>
 </html>
